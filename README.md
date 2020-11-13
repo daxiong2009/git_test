@@ -6,8 +6,8 @@ test git operation
   <li>Bea</li>
 </ol>
 <figure>
-  <img src="me.jpg" height="300" width="400"/>
+  <img src="IMG_0888.jpg" height="150" width="100"/>
   <br />
-  <figcaption> me in drexel university </figcaption>
+  <figcaption> me in mankato </figcaption>
 </figure>
 
