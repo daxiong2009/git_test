@@ -6,5 +6,7 @@ test git operation
   <li>Bea</li>
 </ol>
 
+<img src="me.jpg" />
+
 
 
