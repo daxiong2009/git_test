@@ -6,6 +6,6 @@ test git operation
   <li>Bea</li>
 </ol>
 
-<p><img src="IMG_0888.JPG" height="150" width="120" align="left/> ddadadsada da dsa fd s fsd gsdfgdf g df gf h fg hfg h df gs  gsdf fsd f s fs d fs fs f s fsd</p>
+<p><img src="IMG_0888.JPG" height="150" width="120" align="left"/> ddadadsada da dsa fd s fsd gsdfgdf g df gf h fg hfg h df gs  gsdf fsd f s fs d fs fs f s fsd </p>
 
 
