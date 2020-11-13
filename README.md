@@ -5,8 +5,9 @@ test git operation
   <li>Binnan Yu</li>
   <li>Bea</li>
 </ol>
-
-<img src="me.jpg" />
-
-
+<figure>
+  <img src="me.jpg" height="300" width="400"/>
+  <br />
+  <figcaption> me in drexel university </figcaption>
+</figure>
 
