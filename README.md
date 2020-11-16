@@ -37,23 +37,14 @@ test git operation
 # make a drop down list
 
 <details>
-  <summary>Book</summary>
-  
-  <details>
-    <summary>Chapter1</summary>
-    <ul></ul>
-  </details>
-  
-  <details>
-    <summary>Chapter2</summary>
+  <summary>Heading</summary>
     <ul>
-      <li>a</li>
-      <li>b</li>
-      <li>c</li>
+      <li> markdown list 1</li>
+      <ul>
+        <li> nested list 1</li>
+        <li> nested list 2</li>
+      </ul>
+      <li> markdown list 2</li>
     </ul>
-  </details>
-  
-  
-  
 </details>
 
