@@ -77,6 +77,31 @@ As a famous saying:
 > But difference is which one is the short-cut
 
 # 
+<html>
+  <head>
+    <title>WMD Example</title>        
+    <link rel="stylesheet" type="text/css" href="wmd.css"/>
+    <script type="text/javascript" src="wmd.js"></script>
+    <script type="text/javascript" src="showdown.js"></script>
+  </head>
+  <body>
+    <h1>WMD Example</h1>
+    <div>
+      <div id="notes-button-bar"></div>
+      <textarea id="notes" name="copy"></textarea>
+      <div id="notes-preview"></div>
+      <input type="text" name="copy_html" value="" id="copy_html"/>
+    </div>
+    <script type="text/javascript">
+      setup_wmd({
+        input: "notes",
+        button_bar: "notes-button-bar",
+        preview: "notes-preview",
+        output: "copy_html"
+      });
+    </script>
+  </body>
+</html>
 
-<label for="name">Name:</label> 
-<input type="text" id="name" name="name"/>
+
+
