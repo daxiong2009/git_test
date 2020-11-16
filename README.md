@@ -76,3 +76,6 @@ As a famous saying:
 > all road leads to Roma
 > But difference is which one is the short-cut
 
+# radio button
+
+sex = (x) male () female
