@@ -49,10 +49,17 @@ test git operation
 </details>
 
 
-
+# make a button which embed link to a site
 |[Click here](https://hsl.uw.edu/)|
 |---|
 
 |[Click here](https://hsl.uw.edu/)|[Or here](https://amath.washington.edu/)|[Or here](https://github.com/)|
 |---|---|---|
+
+# make table with Markdown language
+Name | Gender
+----------|----
+George|Male
+Jill|female
+Sissie|female
 
