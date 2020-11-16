@@ -37,9 +37,23 @@ test git operation
 # make a drop down list
 
 <details>
-  <summary>Heading</summary>
-<ul>
-
-</ul>
+  <summary>Book</summary>
+  
+  <details>
+    <summary>Chapter1</summary>
+    <ul></ul>
+  </details>
+  
+  <details>
+    <summary>Chapter2</summary>
+    <ul>
+      <li>a</li>
+      <li>b</li>
+      <li>c</li>
+    </ul>
+  </details>
+  
+  
+  
 </details>
 
