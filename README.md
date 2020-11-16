@@ -10,24 +10,26 @@ test git operation
 <script src="https://unpkg.com/react-dom@15.6.1/dist/react-dom.js"></script>
 
 <table>
-  <tr>
-    <th></th>
-    <th scope="col">Name</th>
-    <th scope="col">Age</th>
-  </tr>
-  <tr>
-    <th scope="row">Father</th>
-    <td>George</td>
-    <td>28</td>
-  </tr>
-  <tr>
-    <th scope="row">Mother</th>
-    <td>Jill</td>
-    <td>28</td>
-  </tr>
-  <tr>
-    <th scope="row">Child</th>
-    <td>Sissie</td>
-    <td>3</td>
-  </tr>
+   <thread>
+     <tr>
+        <th></th>
+        <th scope="col">Name</th>
+        <th scope="col">Age</th>
+     </tr>
+   </thread>
+  
+   <tbody>
+     <tr>
+        <th scope="row">Father</th>
+        <td>George</td>
+        <td>28</td>
+     </tr>
+   </tbody>
+   
+   <tfoot>
+      <tr>
+        <th></th>
+        <td>1</td>
+        <td>28</td>  
+   </tfoot>
 </table>
