@@ -50,13 +50,16 @@ test git operation
 
 # make a radio button
 
-<form action="">
-  <input type="radio" name="rdo" id="yes" checked />
-  <input type="radio" name="rdo" id="no"/>
-  <div class="switch">
-    <label for="yes">Yes</label>
-    <label for="no">No</label>
-    <span></span>
-  </div>
-</form>
+{{#radio-button
+    value="blue"
+    groupValue=color
+    changed=(action "colorChanged")
+}}
+    <span>Blue</span>
+{{/radio-button}}
 
+/* results in */
+<label id="ember346" class="ember-view ember-radio-button">
+  <input id="ember347" class="ember-view" type="radio" value="blue">
+  <span>Blue</span>
+</label>
