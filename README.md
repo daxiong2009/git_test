@@ -35,11 +35,10 @@ test git operation
 </table>
 
 # make a drop down list
-<form action="http://www.example.com/profile.php">
-  <p>what's your gender?</p>
-  <select name="gender">
-    <option value="female">female</option>
-    <option value="male">male</option>
-  </select>
-</form>
+
+<details open>
+<summary>Want to ruin the surprise?</summary>
+<br>
+Well, you asked for it!
+</details>
   
