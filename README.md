@@ -37,31 +37,9 @@ test git operation
 # make a drop down list
 
 <details>
-<summary>Heading</summary>
+  <summary>Heading</summary>
 <ul>
-<details>
-  <li> markdown list 1</li>
-<ul>
-<li> nested list 1</li>
-<li> nested list 2</li>
-</ul>
-</details>
-<li> markdown list 2</li>
+
 </ul>
 </details>
 
-# make a radio button
-
-{{#radio-button
-    value="blue"
-    groupValue=color
-    changed=(action "colorChanged")
-}}
-    <span>Blue</span>
-{{/radio-button}}
-
-/* results in */
-<label id="ember346" class="ember-view ember-radio-button">
-  <input id="ember347" class="ember-view" type="radio" value="blue">
-  <span>Blue</span>
-</label>
