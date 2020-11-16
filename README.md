@@ -38,8 +38,8 @@ test git operation
 <form action="http://www.example.com/profile.php">
   <p>what's your gender?</p>
   <select name="gender">
-    <option>female</option>
-    <option>male</option>
+    <option value="female">female</option>
+    <option value="male">male</option>
   </select>
 </form>
   
