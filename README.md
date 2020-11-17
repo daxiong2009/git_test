@@ -77,3 +77,12 @@ As a famous saying:
 > But difference is which one is the short-cut
 
 # 
+<form action="">
+  <input type="radio" name="rdo" id="yes" checked />
+  <input type="radio" name="rdo" id="no"/>
+  <div class="switch">
+    <label for="yes">Yes</label>
+    <label for="no">No</label>
+    <span></span>
+  </div>
+</form>
