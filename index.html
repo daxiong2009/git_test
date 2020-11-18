@@ -3,7 +3,15 @@
 <html>
 <h3>test new things here</h3>
 <script>
-  document.write("<em>hello world!</em>")
+  document.write("<em>hello world!</em>");
+  var today=new Date();
+  var hourNow=today.getHours();
+  var greeting;
+  if (hourNow>18){greeting="good evening";}
+  else if (hourNow >12){greeting="good morning";}
+  else{greeting="Welcome";}
+  document.write('it is "+hourNow+" "+greeting')
+  
 </script>
 <form action="http://www/example.com/profile.php">
   <select name="device">
