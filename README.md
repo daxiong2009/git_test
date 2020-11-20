@@ -3,7 +3,7 @@ test git operation
 <h3>Contributor</h3>
 
 # make a image
-<p><img src="IMG_0888.JPG" height="150" width="120" align="left"/> </p>
+<p><img src="flowChart.PNG" height="200" width="300" /> </p>
 
 |[Project Homepage](https://daxiong2009.github.io/git_test/)|
 |---| 
