@@ -1,20 +1,56 @@
 
 <!DOCTYPE html>
 <html>
-<h3>test new things here</h3>
+  <head>
+    <title> Test Page</title>
+    <link href="CSS_file/style.css" type="text/css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="container">
+      <div id="header">
+        <h2>Project</h2>
+        <div id="nav">
+          <ul>
+            <li>Algorithm</li>
+            <li>Data Processing</li>
+            <li>Prediction Accuracy</li>
+            <li>Feature Analysis</li>
+          </ul>
+        </div>
+      </div>
 
-  
-<form action="http://www.example.com/profile.php">
-    <input type="radio" name="genre" value="image1" checked="checked"/>Image1
-    <input type="radio" name="genre" value="image2" checked="checked"/>Image2
-    <p id="pics"></p>
-</form>
-  
-<script>
-  var elPics=document.getElementById('pics');
-  elPics.innerHTML="new picture"
-  
-</script>
+      <div class="line">
+        <h3>Data Processing</h3>
+
+      </div>
+
+      <div class="line">
+        <h3>Algorithm</h3>
+        <form>
+          <input type="radio" name="components" value="Image1" checked onClick="changePics(this.value)"> 
+          <label>Image1</label> 
+          <input type="radio" name="components" value="Image2" onClick="changePics(this.value)"> 
+          <label>Image2</label> 
+          <input type="radio" name="components" value="Image3" onClick="changePics(this.value)"> 
+          <label>Image3</label> 
+        </form>
+        <div id="pics"></div>
+      </div>
+
+      <div class="line">
+        <h3>Prediction Accuracy</h3>
+
+      </div>
+
+      <div class="line">
+        <h3>Feature Analysis</h3>
+
+      </div>
+
+
+    </div>
+    <script src="JS_file/switch_pics.js"></script>
+  </body>
 
 </html>
                    

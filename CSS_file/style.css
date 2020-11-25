@@ -1,0 +1,27 @@
+li{
+    display:inline;
+    padding:7px;
+}
+
+.line{
+    float:left;
+    margin:10px 30px 10px 30px;
+    width:400px;
+    height:400px;
+    border-width:3px;
+    border-color: black;
+    background-color: lightgreen;
+}
+
+
+
+label{
+    color:red;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+label:hover{
+    color:mediumseagreen;
+}
+
+

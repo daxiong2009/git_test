@@ -1,13 +1,33 @@
+/* var elForm=document.getElementsByTagName('form');
 var elPics=document.getElementById('pics');
-var elForm=document.getElementByTagName('form');
+var img1 = document.createElement("img");
+img1.src = "IMG_0888.JPG";
+img1.height="200";
+img1.width="150";
+var img2 = document.createElement("img");
+img2.src = "flowChart.PNG";
+img2.height="200";
+img2.width="150";
+img_list=[img1,img2]; */
+/* elPics.appendChild(img_list[0]);
+elPics.appendChild(img_list[1]); */
 
-function changePics(){
-  var choice=this.options[this.selectedIndex].value;
-  if(choice=="image1"){
-    elPics.innerHTML="Image1 is my picture";
-  }else{
-    elPics.innerHTML="Image2 is flow chart diagram";
+
+
+function  changePics(v) {
+    
+  var target = document.getElementById("pics");
+  switch(v){
+      case "Image1":
+          target.innerHTML= "<img height=250 width=200 src='me.jpg'>";
+          break;
+      case "Image2":
+          target.innerHTML= "<img height=250 width=200 src='IMG_0888.JPG'>";
+          break;
+      case "Image3":
+          target.innerHTML= "<img height=250 width=200 src='flowChart.PNG'>";
+          break;
   }
 }
 
-elForm.addEventListener('change',changePics, false);
+
