@@ -1,30 +1,70 @@
 
 <!DOCTYPE html>
 <html>
+
   <head>
     <title> Test Page</title>
     <link href="CSS_file/style.css" type="text/css" rel="stylesheet"/>
   </head>
+
   <body>
-    <div class="container">
-      <div id="header">
-        <h2>Prediction of Knee Pain for high school adolescent athlete  </h2>
-        <div id="nav">
-          <ul>
-            <li>Algorithm</li>
-            <li>Data Souce</li>
-            <li>Background</li>
-            <li>Implication</li>
-          </ul>
-        </div>
-      </div>
 
-      <div class="line">
-        <h3>Data Processing</h3>
+  <div id="header">
+    <h1>Supervised Machine Learning for Microbiome Data  </h1>
+    <div id="author">
+      <ul>
+        <li>Kristina Herman<sup>1</sup></li>
+        <li>Lillian Tatka<sup>2</sup></li>
+        <li>David Lee<sup>2</sup></li>
+        <li>Sierra Gillman<sup>3</sup></li>
+        <li>Binnan Yu<sup>4,5</sup></li>
+      </ul>
+    </div>
+    <div id="place">
+      <p><i><sup>1</sup>Department of Chemistry; 
+        <sup>2</sup>Department of Bioengineering;
+        <sup>3</sup>School of Environmental and Forest Sciences; <br/>
+        <sup>4</sup>Department of Rehabilitation Medicine;
+        <sup>5</sup>Department of Applied Mathematics, University of Washington, Seattle, WA, 98105</i></p>
+    </div>
+  </div>
 
-      </div>
+  <div class="row1" id="left">
+    <h3>Statement of The Problem</h3>
+    <p align="justify">Once thought only to be pathogenic, the microorganisms living on and within an animal host 
+          are now recognized as playing critical roles in host health. Factors that shape gut microbial communities 
+          are multifaceted and include the host’s diet and life-stage.<br/><br/>
+          While microbial shifts have been implicated in numerous human ailments (e.g., obesity, anxiety, 
+          inflammatory bowel disease), research has thus far been limited to differentiating microbial communities 
+          between groups and less for predictive uses. As a result of an ever expanding 
+          microbiome data availability, microbiome research lends itself to advancement with machine learning and data science.
+          However, the implementation of machine learning in microbiome research might feel daunting and time consuming to 
+          those outside of the realm of data science.</p>
+  </div>
 
-      <div class="line">
+  <div class="row1">
+    <img src="effect1.jpg" width=280 height=300>
+    <img src="effect2.jpg" width=280 height=300>
+  </div>
+
+  <div class="row2">
+    <img src="flow.jpg" width=500 height=300>
+  </div>
+
+  <div class="row2">
+        <h3>Our Solution</h3>
+        <p>Our team strive to build a software prroduct that can deploy an automated machine learning model
+          with minimum of knowledge in data science and machine learning. The model is developed based on 
+          the open source dataset from Qiita. 
+        </p>
+  </div>
+
+  <div class="row3">
+    <h3>Who Will Be Benefitted from Our Product?</h3>
+    <img src="use_case.JPG" width=80% height=450>
+  </div>
+
+  <div class="row4">
         <h3>Algorithm</h3>
         <form>
           <input type="radio" name="components" value="Image1" checked onClick="changePics(this.value)"> 
@@ -35,21 +75,15 @@
           <label>Image3</label> 
         </form>
         <div id="pics"></div>
-      </div>
+  </div>
 
-      <div class="line">
+  <div class="row4">
         <h3>Background</h3>
-
-      </div>
-
-      <div class="line">
-        <h3>Implication</h3>
-
-      </div>
+        <video src=BioME_demo.mp4 width="100%" controls></video>
+  </div>
 
 
-    </div>
-    <script src="JS_file/switch_pics.js"></script>
+  <script src="JS_file/switch_pics.js"></script>
   </body>
 
 </html>

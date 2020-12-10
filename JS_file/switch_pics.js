@@ -19,13 +19,13 @@ function  changePics(v) {
   var target = document.getElementById("pics");
   switch(v){
       case "Image1":
-          target.innerHTML= "<img height=250 width=200 src='me.jpg'>";
+          target.innerHTML= "<img height=400 width=400 src='user_case1.JPG'>";
           break;
       case "Image2":
-          target.innerHTML= "<img height=250 width=200 src='IMG_0888.JPG'>";
+          target.innerHTML= "<img height=250 width=200 src='user_case2.JPG'>";
           break;
       case "Image3":
-          target.innerHTML= "<img height=250 width=200 src='flowChart.PNG'>";
+          target.innerHTML= "<img height=250 width=200 src='user_case3.JPG'>";
           break;
   }
 }

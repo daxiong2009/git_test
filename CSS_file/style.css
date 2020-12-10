@@ -1,25 +1,78 @@
-li{
+
+
+h1{
+    position:relative;
+    left:20%;
+}
+
+#author{
+    position:relative;
+    left:20%;
+}
+
+#author li{
     display:inline;
     padding:7px;
 }
 
-.line{
-    float:left;
-    margin:10px 30px 10px 30px;
-    width:400px;
-    height:400px;
-    border-width:3px;
-    border-color: black;
-    background-color: lightgreen;
+#place{
+    position:relative;
+    left:20%;
+    
 }
 
+
+
+.row1{
+    float:left;
+    margin:50px 30px 1px 30px;
+    width:45%;
+    height:500px;
+    font-size: 20px;
+    line-height: 1.4em;
+
+}
+
+.row1 img{
+    margin-top: 100px;
+}
+
+
+.row2{
+    float:left;
+    margin:20px 30px 30px 30px;
+    width:45%;
+    height:400px;
+    font-size: 20px;
+    line-height: 1.4em;
+}
+
+.row2 img{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.row3{
+    padding-left: 100px;
+    margin-top: 1000px;
+    border-top-style: dotted;
+    border-top-color: black;
+    border-top-width: 3px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.row3 h3{
+    padding-left: 250px;
+    font-size: 25px;
+}
 
 
 label{
     color:red;
     font-family: 'Courier New', Courier, monospace;
-
 }
+
 label:hover{
     color:mediumseagreen;
 }
