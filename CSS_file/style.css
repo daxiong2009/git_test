@@ -58,6 +58,9 @@ h1{
     border-top-style: dotted;
     border-top-color: black;
     border-top-width: 3px;
+    border-bottom-color: black;
+    border-bottom-width: 3px;
+    border-bottom-style: dotted;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -67,14 +70,50 @@ h1{
     font-size: 25px;
 }
 
-
-label{
-    color:red;
-    font-family: 'Courier New', Courier, monospace;
+#why{
+    font-size:20px;
+    margin-top: 20px;
+    font-size: 25px;
 }
 
-label:hover{
-    color:mediumseagreen;
+.row4{
+    float:left;
+    margin:20px 30px 0px 30px;
+    width:43%;
+    height:550px;
+    font-size: 20px;
+    line-height: 1.4em;
 }
+
+.row4 section p{
+    font-size: 17px;
+}
+
+section div{
+    float:left;
+}
+
+section div form{
+    padding-left:20px;
+    padding-top:18px;
+}
+#pics{
+    padding-top:100px;
+}
+
+.row5{
+    float:right;
+    margin:20px 30px 0px 30px;
+    width:43%;
+    height:550px;
+    font-size: 20px;
+    line-height: 1.4em;
+}
+
+.row5 img{
+    padding-top: 100px;
+    
+}
+
 
 

@@ -18,14 +18,26 @@ function  changePics(v) {
     
   var target = document.getElementById("pics");
   switch(v){
-      case "Image1":
-          target.innerHTML= "<img height=400 width=400 src='user_case1.JPG'>";
+      case "KNN":
+          target.innerHTML= "<img height=300 width=450 src='knn.png'>";
           break;
-      case "Image2":
-          target.innerHTML= "<img height=250 width=200 src='user_case2.JPG'>";
+      case "Logistic":
+          target.innerHTML= "<img height=320 width=450 src='logisitic.jpeg'>";
           break;
-      case "Image3":
-          target.innerHTML= "<img height=250 width=200 src='user_case3.JPG'>";
+      case "Ridge":
+          target.innerHTML= "<img height=320 width=450 src='ridge.jpg'>";
+          break;
+      case "Tree":
+          target.innerHTML= "<img height=320 width=450 src='decision-trees.jpg'>";
+          break;
+      case "Random Forest":
+          target.innerHTML= "<img height=320 width=450 src='Random_Forest.png'>";
+          break;
+      case "Naive Bayes":
+          target.innerHTML= "<img height=380 width=600 src='naive bayes.png'>";
+          break;
+      case "NNs":
+          target.innerHTML= "<img height=320 width=450 src='NNs.png'>";
           break;
   }
 }

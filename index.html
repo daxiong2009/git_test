@@ -64,26 +64,68 @@
     <img src="use_case.JPG" width=80% height=450>
   </div>
 
-  <div class="row4">
-        <h3>Algorithm</h3>
-        <form>
-          <input type="radio" name="components" value="Image1" checked onClick="changePics(this.value)"> 
-          <label>Image1</label> 
-          <input type="radio" name="components" value="Image2" onClick="changePics(this.value)"> 
-          <label>Image2</label> 
-          <input type="radio" name="components" value="Image3" onClick="changePics(this.value)"> 
-          <label>Image3</label> 
-        </form>
-        <div id="pics"></div>
+  <div id="characteistics">
+    <h3 id="why" align="center">Why Our Solution is Trustworthy?</h3>
+
+    <div class="row4">
+      <h3>1. Algorithm</h3>
+      <p align="justify">Our product is developed based on 7 different algorithms, each of it have different characteistics
+        so that our product can handle different dataset. 
+      </p>
+      <section>
+        <div><p><em>Click the dropdown list to see algorithms option we provide</em></p></div>
+        <div><form>
+          <select name="algorithm">
+            <option value="KNN" checked onClick="changePics(this.value)">K-nearest Neighbor</option>
+            <option value="Logistic" onClick="changePics(this.value)">Logistic Regression </option>
+            <option value="Ridge" onClick="changePics(this.value)">Ridge Regression</option>
+            <option value="Tree" onClick="changePics(this.value)">Dicision Tree</option>
+            <option value="Random Forest" onClick="changePics(this.value)">Random Forest</option>
+            <option value="Naive Bayes" onClick="changePics(this.value)">Naives Bayes</option>
+            <option value="NNs" onClick="changePics(this.value)">Neural Network</option>          
+          </select>
+        </form></div>
+      </section>
+    </div>
+
+    <div class="row4">
+      <div id="pics"></div>
+    </div>
   </div>
 
-  <div class="row4">
+
+  <div class="row5">
+    <h3>2. Automated optimization of model parameter</h3>
+    <p></p>
+
+  </div>
+
+  <div class="row5">
+    <img src="parameter.jpeg" width=500 height=250>
+
+  </div>
+
+  
+  <!--
+
+  <input type="radio" name="components" value="Image1" checked onClick="changePics(this.value)"> 
+  <label>Image1</label> 
+  <input type="radio" name="components" value="Image2" onClick="changePics(this.value)"> 
+  <label>Image2</label> 
+  <input type="radio" name="components" value="Image3" onClick="changePics(this.value)"> 
+  <label>Image3</label> 
+
+-->
+
+
+
+  <script src="JS_file/switch_pics.js"></script>    
+  <!--
+    <div class="row4">
         <h3>Background</h3>
         <video src=BioME_demo.mp4 width="100%" controls></video>
-  </div>
-
-
-  <script src="JS_file/switch_pics.js"></script>
+    </div>
+  -->
   </body>
 
 </html>
